@@ -1,0 +1,200 @@
+@media(max-width:768px) {
+    nav {
+        width: 100%;
+        padding: 15px;
+        /* display: none; */
+    }
+
+    .hero-sec {
+        height: 90vh;
+    }
+
+    nav ul {
+        margin-right: 20px;
+    }
+
+    nav ul a {
+        margin-right: 10px;
+        font-size: 12px;
+    }
+
+    .info {
+        width: 350px;
+        /* margin: 200px 0 0 150px; */
+    }
+
+    .info h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .info h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .info p {
+        font-size: 12px;
+    }
+
+    .box {
+        height: 280px;
+        width: 280px;
+        box-shadow: 0px 0px 80px #0ef7f8;
+        border: 5px solid white;
+    }
+
+    .inn-box {
+        height: 250px;
+        width: 250px;
+        box-shadow: 0px 15px 20px rgb(237, 69, 97);
+    }
+
+    .inner-box {
+        box-shadow: 0px -15px 20px rgb(243, 79, 107);
+    }
+
+    .about {
+        height: min-content;
+    }
+
+    .about-right {
+        height: min-content;
+        width: 100vw;
+    }
+
+    .about-left {
+        height: 100%;
+        width: 100vw;
+        display: none;
+    }
+
+    .third-sec {
+        height: max-content;
+    }
+
+    .services {
+        height: min-content;
+    }
+
+    .skills-sec {
+        margin-top: 50px;
+    }
+
+    .third-sec {
+        height: min-content;
+        margin-top: 50px;
+    }
+
+    .third-sec h1 {
+        margin-bottom: 100px;
+    }
+
+    .project {
+        height: min-content;
+    }
+
+    .project h1 {
+        margin: 50px;
+    }
+
+    .contact {
+        height: min-content;
+        flex-wrap: wrap;
+    }
+
+    .left-content {
+        height: min-content;
+        width: 100%;
+    }
+
+    .left p {
+        color: white;
+        width: 100%;
+    }
+
+    .right {
+        align-items: center;
+    }
+
+    .last-btn {
+        margin-bottom: 50px;
+    }
+
+}
+
+
+
+@media(max-width:520px) {
+    nav ul {
+        margin-right: 20px;
+        display: none;
+    }
+
+    .info {
+        width: 300px;
+        /* margin: 200px 0 0 150px; */
+    }
+
+    .info h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .info h2 {
+        font-size: 20px;
+        /* margin-bottom: 20px; */
+    }
+
+    .info h3 {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .info p {
+        font-size: 12px;
+    }
+
+    .skill {
+        /* height: 100%; */
+        width: 100%;
+    }
+
+    .right input
+{
+    padding: 10px;
+    width:280px;
+}
+#massage
+{
+    height: 100px;
+    width: 300px;
+}
+.last-btn
+{
+    width: 300px;
+}
+.images
+{
+    height: min-content;
+}
+
+.image
+{
+    height: 180px;
+    width: 300px;
+}
+.skills-sec
+{
+  height:min-content;
+}
+.skill
+{
+    margin-bottom:60px;
+}
+/* .line
+{
+    margin-bottom: 80px;
+} */
+
+}
